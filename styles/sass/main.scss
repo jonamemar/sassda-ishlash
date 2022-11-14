@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inconsolata", monospace;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    .control-navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        .link {
+            display: flex;
+            justify-content: space-between;
+            width: 600px;
+            margin-top: 20px;
+        }
+        .logos {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 30px;
+            width: 80px;
+            margin-top: 20px;
+        }
+    }
+    .line {
+        display: inline-block;
+        height: 2px;
+        width: 1200px;
+        margin-top: 50px;
+        background-color: grey;
+        box-shadow: 2px;
+    }
+}
+.container2 {
+    width: 1200px;
+    margin: 0 auto;
+    .information {
+        width: 600px;
+        margin-top: 100px;
+        h1 {
+            font-size: 48px;
+        }
+        h2 {
+            color: red;
+            font-size: 48px;
+        }
+        p {
+            width: 500px;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+    }
+}
+button {
+    width: 160px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #ee4248;
+    border: #ee4248;
+    color: aliceblue;
+}
+.pictures {
+    position: relative;
+    .pana {
+        position: absolute;
+        padding: 0px;
+        margin-top: 80px;
+    }
+}
+.control-showcase {
+    display: flex;
+    margin-top: 60px;
+}
+.container3 {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    border: lightgrey;
+    .control-showcase2 {
+        height: 600px;
+        padding: 30px 30px 30px 30px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 160px;
+        h3 {
+            font-size: 48px;
+        }
+        h4 {
+            color: red;
+            font-size: 48px;
+        }
+
+        p {
+            width: 500px;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+        .p2 {
+            width: 500px;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+    }
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    h5 {
+        font-size: 40px;
+        margin-left: 400px;
+        margin-top: 200px;
+    }
+    margin-top: 180px;
+    .control-workcard {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+
+        .card {
+            width: 300px;
+            p {
+                margin-top: 30px;
+            }
+        }
+    }
+    .our {
+        font-size: 30px;
+        margin-top: 200px;
+        color: #ee4248;
+    }
+    .card-image {
+        margin-left: 60px;
+    }
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    .control-footer {
+        display: flex;
+    }
+}
+.samsara {
+    margin-top: 50px;
+    width: 1200px;
+    height: 80px;
+    background-color: #ee4248;
+    text-align: center;
+    h3 {
+        margin-top: 30px;
+    }
+}
+.indonesia {
+    color: aliceblue;
+    margin-top: 60px;
+    font-size: 20px;
+    p {
+        margin-top: 25px;
+    }
+}
+.contact {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.aloqa {
+    font-size: 24px;
+}
+.boglanishlar {
+    margin-top: 7px;
+    font-size: 18px;
+}
+.malumot {
+    margin-top: 7px;
+    font-size: 18px;
+}
+.group {
+    width: 400px;
+    margin-top: 30px;
+}
+.control-footer {
+    margin-top: 200px;
+}
+.welcome {
+    margin-left: 50px;
+}
